@@ -95,7 +95,10 @@
 /* Main App Styles */
 .app-container {
   min-height: 100vh;
+  width: 100%;
   background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  display: flex;
+  flex-direction: column;
 }
 
 .app-header {
@@ -220,6 +223,8 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  width: 100%;
+  flex: 1;
 }
 
 /* Upload Section */
